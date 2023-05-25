@@ -1,0 +1,19 @@
+---
+import NavLink from "./NavLink.astro";
+---
+
+<nav class="nav-bar">
+  <NavLink href="/">Aloysius</NavLink>
+  <div class="blog-and-projects">
+    <NavLink href="/blog">Blog</NavLink>
+    <NavLink href="/projects">Projects</NavLink>
+  </div>
+</nav>
+
+<style>
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+</style>
